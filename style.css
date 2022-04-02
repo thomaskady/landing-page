@@ -9,10 +9,15 @@ body {
     flex: 1;
 }
 
+/* -- top portion -- */
+
+.top {
+    background-color: rgb(0, 104, 165)
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(0, 25, 107);
 }
 
 .header img {
@@ -26,11 +31,55 @@ ul{
     display: flex;
     gap: 32px;
     align-items: center;
-    margin-right: 32px;
+    margin-right: 64px;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-size: 32px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro img {
+    max-height: 300px;
+    max-width: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    border: 8px solid rgb(250, 250, 250);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+    color: rgba(255, 253, 253, 0.856);
+    font-size: 24px;
+}
+
+.text button {
+    background-color: rgb(10, 164, 253);
+    font-size: 32px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 8px 32px;
+    cursor: pointer;
+    margin-top: 32px;
 }
