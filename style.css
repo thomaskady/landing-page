@@ -207,3 +207,14 @@ h2 {
     font-weight: bold;
     width: 100px;
 }
+
+/*-- footer --*/
+
+.footer {
+    background: rgb(0, 104, 165);
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
